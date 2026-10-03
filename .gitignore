@@ -1,0 +1,25 @@
+# Build output
+build/
+build-*/
+cmake-build-*/
+*.o
+*.a
+compile_commands.json
+
+# Runtime data written by the server
+appendonly.aof
+*.aof
+*.aof.tmp
+dump.rdb
+*.rdb
+
+# Tooling
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
